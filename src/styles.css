@@ -3,11 +3,28 @@
     font-weight: bold;
 }
 
-.survey {
+.link-group {
+    padding: 5px;
+}
+
+.main-link {
+    padding: 5px;
+}
+.main-link:not(:first-child) {
+    margin-top: 5px;
+}
+
+.footer {
+    background-color: #9e9e9e;
+    color: white;
+    padding: 10px;
+}
+
+/* .survey {
     margin-top: 15px;
     max-width: 100%;
     word-wrap: break-word;
-}
+} */
 
 .imageRotateHorizontal{
     -moz-animation: spinHorizontal 3.5s infinite linear;
