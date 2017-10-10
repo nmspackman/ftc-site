@@ -11,6 +11,12 @@
     }
 }
 
+@media screen and (min-width: 1300px) {
+    .container {
+        height: calc(100vh - 55px);
+    }
+}
+
 @media screen and (max-width: 374px) {
     .word-wrap {
         white-space: pre-wrap; /* css-3 */    
