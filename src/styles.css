@@ -1,6 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-.container {
-    height: calc(100vh - 55px);
+@media all and (min-width: 1123px) {
+    .container {
+        height: calc(100vh - 55px);
+    }
+}
+
+@media all and (max-width: 374px) {
+    .word-wrap {
+        white-space: pre-wrap; /* css-3 */    
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */    
+        white-space: -o-pre-wrap; /* Opera 7 */    
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+    }
+}
+
+.banner img {
+    max-width: 400px;
 }
 
 .app-title {
@@ -15,6 +31,7 @@
 .main-link {
     padding: 5px;
 }
+
 .main-link:not(:first-child) {
     margin-top: 5px;
 }
