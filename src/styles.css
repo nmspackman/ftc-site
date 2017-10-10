@@ -5,8 +5,7 @@
     }
 } */
 
-@media (orientation:landscape) and (min-device-height:1000px),
-all and (min-width:1000px) {
+@media (orientation:landscape) and (min-device-height:1000px) and (min-width:1000px) {
     .container {
         height: calc(100vh - 55px);
     }
