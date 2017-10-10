@@ -1,9 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    height: calc(100vh - 55px);
+}
+
 .app-title {
     font-weight: bold;
 }
 
 .link-group {
+    margin-top: 20px;
     padding: 5px;
 }
 
